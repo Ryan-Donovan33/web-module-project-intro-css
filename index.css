@@ -147,6 +147,11 @@ nav a {
 	border-radius: 20px;
 }
 
+nav a:hover {
+	background-color: rgb(71, 146, 189);
+	font-size: 1.5rem;
+}
+
 nav .one {
 	background-color: #ff764e;
 	color: white;
@@ -179,6 +184,10 @@ nav .three {
 	height: auto;
 	display: inline-block;
 	border-radius: 200px;
+}
+
+.explore img:hover {
+	transform: rotate(20deg);
 }
 
 .explore div {
@@ -226,6 +235,10 @@ nav .three {
 	height: auto;
 }
 
+.iconFire img:hover {
+	transform: rotate(20deg);
+}
+
 .iconFire p {
 	padding: 5%;
 	margin: 0 15%;
@@ -243,6 +256,10 @@ nav .three {
 .iconTruck img {
 	width: 20vh;
 	height: auto;
+}
+
+.iconTruck img:hover {
+	transform: rotate(-20deg);
 }
 
 .iconTruck p {
